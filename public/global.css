@@ -1,0 +1,67 @@
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif; /* Placeholder, replace with your preferred font */
+    background-color: #000; /* Black background for the body */
+    color: #FFF; /* White text color */
+	background-image: url(assets/tareq-ajalyakin-72aEtYlS5K0-unsplash_1.png);
+    background-size: cover; /* This will cover the entire viewport */
+    background-repeat: no-repeat; /* This will prevent the image from repeating */
+    background-position: center; /* This will center the image */
+    height: 100vh; /* This will ensure the body takes up the full height of the viewport */
+}
+
+a{
+	color: rgb(0,100,200);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: rgb(0,80,160);
+}
+
+label {
+	display: block;
+}
+
+input, button, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	-webkit-padding: 0.4em 0;
+	padding: 0.4em;
+	margin: none;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+
+input:disabled {
+	color: #ccc;
+}
+
+button {
+	color: #333;
+	background-color: #f4f4f4;
+	outline: none;
+}
+
+button:disabled {
+	color: #999;
+}
+
+button:not(:disabled):active {
+	background-color: #ddd;
+}
+
+button:focus {
+	border-color: #666;
+}
